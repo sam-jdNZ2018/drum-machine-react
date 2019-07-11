@@ -1,6 +1,5 @@
 import React from 'react';
 import PadGroup from "./pad-group";
-import 'font-awesome/css/font-awesome.min.css';
 
 class DrumMachine extends React.Component {
   constructor(props) {

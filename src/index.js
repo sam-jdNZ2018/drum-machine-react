@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
-import 'font-awesome/css/font-awesome.min.css';
 import DrumMachine from './cmps/drum-machine';
 import * as serviceWorker from './serviceWorker';
 
