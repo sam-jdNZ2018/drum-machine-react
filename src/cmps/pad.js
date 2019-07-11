@@ -9,7 +9,7 @@ const Pad = props => {
             onClick={e => props.handler(e)} disabled={!props.power}
         >
             {props.letter}
-            <audio class="clip" id={props.letter} src={props.url} />
+            <audio className="clip" id={props.letter} src={props.url} />
         </button>
     );
 };

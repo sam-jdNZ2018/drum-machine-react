@@ -56,7 +56,7 @@ class PadGroup extends React.Component {
         document.addEventListener("keydown", this.handleInput);
     }
 
-    componentDidUnmount() {
+    componentWillUnmount() {
         document.removeEventListener("keydown", this.handleInput);
     }
 
@@ -77,8 +77,12 @@ class PadGroup extends React.Component {
             if (this.props.bank == 2) {
                 index = index + 9;
             }
-            text = TEXT[index];
-            this.playClip(clip, text);
+            //If a correct key was pressed
+            if(index > -1){
+                text = TEXT[index];
+                this.playClip(clip, text);
+            }
+            
         }
     }
 
