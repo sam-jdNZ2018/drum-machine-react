@@ -19,7 +19,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage":"https://sam-jdnz2018.github.io/drun-machine-react/",
+  "homepage":"https://sam-jdnz2018.github.io/drum-machine-react/",
   "browserslist": {
     "production": [
       ">0.2%",
