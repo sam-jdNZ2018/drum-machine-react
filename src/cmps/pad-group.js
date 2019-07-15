@@ -98,8 +98,8 @@ class PadGroup extends React.Component {
     //Convert a string from the TEXT array at the index provided into a valid jQuery selector
     makeValidText(index) {
         let s = TEXT[index];
-        s = s.replace("'", "\'");
-        return s.replace(/\s/g, "\_");
+        s = s.replace("'", "'");
+        return s.replace(/\s/g, "_");
     }
 
     render() {
